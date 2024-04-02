@@ -1,0 +1,23 @@
+package hell;
+
+import java.util.Scanner;
+
+public class Strontio {
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int m=(n*2)%1000;
+        int c=m/10;
+        int d=c%11;
+        if(d==0)
+        {
+            System.out.println("Strontio number");
+        }
+        else
+        {
+            System.out.println("not a Strontio number");
+        }
+    }
+    
+}
